@@ -1,0 +1,39 @@
+// Place all the styles related to the Main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+#index {
+
+	h1 {
+		font-size: 8em;
+		font-weight: 700;
+		font-style: italic;
+		font-family: 'Lobster Two', cursive;
+		text-align: center;
+	}
+
+	h2 {
+		font-family: "Lobster Two", cursive;
+		font-weight: 700;
+		font-style: italic;
+		font-size: 3em;
+	}
+
+	h3 {
+		font-family: 'Lobster Two', cursive;
+		font-weight: 400;
+		font-size: 2em;
+		text-align: center;
+	}
+
+	.heading {
+		padding-top: 10vh;
+		padding-bottom: 60vh;
+		background: url('/assets/beach.jpg');
+		background-size: cover;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+}
